@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import RoomCard from "../components/cards/RoomCard";
 import api from "../utils/api";
-import { useParams, useSearchParams } from "react-router-dom";
+import {  useSearchParams } from "react-router-dom";
 
 interface RoomType {
   name: string;
